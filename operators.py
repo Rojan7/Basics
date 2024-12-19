@@ -14,4 +14,6 @@
 
 
 x= print (2>3)
-print (x)
+# other  operators are ==, !=, >, <, >=, <= 
+# we have logical operators in python and they are and, or, not
+ 

@@ -3,7 +3,9 @@ sentence = input ("enter a sentence")
 character = input ("enter the character whose frequency ou want")
 count = 0
 
-for index,fragments in enumerate(sentence):
+for index,hgjh in enumerate(sentence):
+    print(hgjh)
+    print(index)
     if sentence[index] == character:
         count = count +1
 print(count)

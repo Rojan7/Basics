@@ -40,5 +40,5 @@ def solve_cryptarithm(equation):
     return "No solution found."
 
 
-equation = "SEND + MORE == MONEY"
+equation = "TWO + TWOo == FOUR"
 print(solve_cryptarithm(equation))

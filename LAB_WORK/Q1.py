@@ -6,9 +6,14 @@ def check_evenORodd(num):
 
     if num % 2 == 0:
 
-        print(str(num) + " is even")
+        return 1
     else:
-        print(f"{num} is odd")
+       return 0
 
 
-check_evenORodd(int(number))
+result = check_evenORodd(int(number))
+
+if result == 1 :
+    print("even")
+else :
+    print("odd")

@@ -1,4 +1,5 @@
 #6)WAP to calculate the factorial of an input number.
+#used a recursive function for this purpose
 def calculate_fact(num):
     if num == 1:
         return 1

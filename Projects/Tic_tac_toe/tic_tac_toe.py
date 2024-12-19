@@ -1,6 +1,7 @@
 import math
 import random
 
+
 class Player:
     def __init__(self,letter):
         self.letter = letter #the lettter is basically x or o
@@ -10,7 +11,7 @@ class RandomComputerPlayer(Player):
     def __init__(self,letter):
         super().__init__(letter)
     def get_move(self, game):
-        square = random.choice(game.available_moves())
+        square = random.choice(game.available_moves()) #random euta valid spot khojxa 
         return square 
     
 

@@ -5,11 +5,14 @@ import matplotlib.pyplot as plt
 
 # Define the graph as an adjacency list
 graph = {
-    'a': {'b': 1, 'c': 2},
-    'b': {'d': 3, 'e': 4},
-    'c': {'f': 5},
-    'd': {'g': 6},
-    'e': {'h': 7},
+    'biratnagar': {'rangeli': 25, 'itahari': 22},
+    'rangeli': {'biratnagar': 25, 'kanepokhari': 25},
+    'itahari': {'biratnagar': 22,'dharan':20 },
+    'biratchowk': {'itahari': 11,'biratnagar':30},
+    'kanepokhari': {'biratchowk': 10,'rangeli':25},
+    'urlabari' :{'kanepokhari' :12,'damak':6},
+    'damak' :{'urlabari':6}
+
     
 }
 

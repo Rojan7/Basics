@@ -30,7 +30,7 @@ class Item:
               )
     @staticmethod
     def is_integer(num):
-        if isinstance(num, float):
+        if isinstance(num, float):# static checking for clarifing integer as num or floating point
             return num.is_integer()
         return isinstance(num, int) 
 

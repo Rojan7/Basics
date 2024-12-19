@@ -8,13 +8,14 @@
 percentage = int(input("Enter your percentage"))
 def check_grade(percentage):
     if percentage >= 80 and percentage <= 100:
-        print (f"{percentage} is Distinction")
+        return (f"{percentage} is Distinction")
     elif percentage >= 65:
-        print(f"{percentage} is First Division")
+        return(f"{percentage} is First Division")
     elif percentage >= 55:
-        print(f"{percentage} is Second Division")
+        return(f"{percentage} is Second Division")
     elif percentage >= 40:
-        print(f"{percentage} is Third Division")
+        return(f"{percentage} is Third Division")
     else:
-        print("Fail")
-check_grade(percentage)
+        return("Fail")
+result =  check_grade(percentage)
+print(result)
